@@ -3,15 +3,22 @@
 %Facts.
 teaches(marc_sosnick, 413-1).
 teaches(marc_sosnick, 413-2).
-teaches(marc_sosnick, 648-1).
-teaches(marc_sosnick, 648-2).
-teaches(jozo_duj, 600-1).
-teaches(joze_duj, 600-2).
+teaches(petkovic, 648-1).
+teaches(petkovic, 648-2).
+teaches(jozo_dujmovic, 600-1).
+teaches(joze_dujmovic, 600-2).
 teaches(anthony_souza, 412-1).
 teaches(anthony_souza, 412-2).
-teaches(anthony_souza, 220-1).
-teaches(antony_souza, 220-2).
-
+teaches(anthony_souza, 210-1).
+teaches(antony_souza, 210-2).
+teaches(wong, 220-1).
+teaches(wong, 220-2).
+teaches(tomasevich, 300-1).
+teaches(tomasevich, 300-2).
+teaches(yang,340-1).
+teaches(jozo_dujmovic,340-2).
+teaches(kelly, 415-1).
+teaches(wall, 510-1).
 
 freshman(210-1).
 freshman(210-2).
@@ -23,7 +30,6 @@ sophmore(300-2).
 junior(413-1).
 junior(413-2).
 junior(415-1).
-junior(415-2).
 senior(510-1).
 senior(510-2).
 senior(600-1).
@@ -35,19 +41,18 @@ mwf(210-1).
 mwf(210-2).
 mwf(220-1).
 mwf(220-2).
-mwf(300-1).
-mwf(300-2).
 mwf(340-1).
-mwf(510-1).
-mwf(510-2).
 mwf(600-1).
 mwf(600-2).
 mwf(648-1).
 mwf(648-2).
+tth(300-1).
+tth(300-2).
+tth(340-2).
 tth(413-1).
 tth(413-2).
 tth(415-1).
-tth(415-2).
+tth(510-1).
 
 %Rules.
 %Teachers and that teach freshman, sophmore, junior, senior.
