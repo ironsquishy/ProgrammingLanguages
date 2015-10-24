@@ -1,0 +1,14 @@
+//Allen Space
+//Practicing with BNFs
+
+making a C like Data variables..
+
+<define-var> ::= <Data-typename> <decleration list> ;
+<data-typename> ::= int | float | double | char | string | Byte | long
+<decleration-list> ::= <declarator> | <declarator> , <declarator-list>
+<declarator> ::= <variable-name> | <variable-name> = <expression>
+
+sum(List, MinPlusMax) :- min_in_list(List, X), max_in_list(List, Y), MinPlusMax is X + Y.
+
+
+

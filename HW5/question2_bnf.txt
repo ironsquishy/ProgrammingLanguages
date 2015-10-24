@@ -1,0 +1,40 @@
+Allen Space
+Homework 5 question 2 BNF notation.
+
+Part A: Find the integers that are divisible by 10?
+
+<Integer_Divisible_by_10> ::= <sign> <unsigned integer> <digit mod 10>
+<sign> ::= + | - | <empty>
+<unsigned integer> ::= <number> | <unsigned integer> <number>
+<number> ::=  0 | 1 | 2 | 3| 4 | 5 | 6 | 7| 8| 9
+<empty> ::=
+<digit mod 10> ::= 0
+
+Part B: Real numbers standard and exponential parts?
+<real_number> ::= <sign> <decimal part> <exponential part>
+<sign> ::= + | - | <empty>
+<decimal part> ::= <unsigned number> | <unsigned number> . <unsigned number>
+<exponential part> ::= <empty> | e <sign> <unsigned> | x10^ <sign> <unsigned number>
+<unsigned number> ::= <digit> | <unsigned> <digit>
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<empty> :: =
+
+Part C BNF of static initialized array:
+<initialized array> ::= static <define-variable>
+<define-var> ::= <data-typename> <decleration list>
+<data-typename> char | short | int | float | double | long | byte
+<decleration list> ::= <declarator>; | <declarator>, <decleration list>;
+<declarator> ::= <varaiable-name> | <variable-name> = <expression>
+<variable-name> ::= <word> [<expression>][<expression>]
+<word> ::= <char> | <word>, <char>
+<char> ::= //the alphabet.
+<expression> ::= <number> | <list> | <empty>
+<list> ::= <number> | { <list>, <list> } | {<number>, <list>}
+<number> ::= <real_number>
+<real_number> ::= <sign> <decimal part> <exponential part>
+<sign> ::= + | - | <empty>
+<decimal part> ::= <unsigned number> | <unsigned number> . <unsigned number>
+<exponential part> ::= <empty> | e <sign> <unsigned> | x10^ <sign> <unsigned number>
+<unsigned number> ::= <digit> | <unsigned> <digit>
+<digit> ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+<empty> :: =
